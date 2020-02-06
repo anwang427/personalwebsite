@@ -1,3 +1,5 @@
+/*Text component of website page */
+
 @font-face {
   font-family: 'Barlow';
   src: url('fonts/Barlow-Light.eot');
@@ -19,7 +21,7 @@
   font-size: 0.97em;
   color: #FFFFFF;
   opacity: 0.86;
-
+  z-index: 2;
 }
 
 a:link {
@@ -27,23 +29,20 @@ a:link {
 }
 
 a:visited {
-  color: #FFA85E;
+  color: #0EA5FD;
 }
 
 body {
   background-color: #1F1F1F;
-  height: 100vh;
-  overflow: hidden;
-}
-
-html, body {
-  background: #1f1f1f;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
-.view {
+/*create the balls of light */
+
+ .view {
   position: absolute;
   top: 0;
   left: 0;
@@ -51,47 +50,47 @@ html, body {
   bottom: 0;
 }
 
-.plane {
+ .plane {
   width: 100px;
   height: 100px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-.plane.main {
+ .plane.main {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 80%;
   -webkit-transform: rotateX(60deg) rotateZ(-70deg);
           transform: rotateX(60deg) rotateZ(-70deg);
   -webkit-animation: rotate 7s infinite linear;
           animation: rotate 7s infinite linear;
 }
-.plane.main .circle {
+ .plane.main .circle {
   width: 30px;
   height: 30px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  border-radius: 90%;
-  box-shadow: 0 0 300px rgba(253, 216, 6, 0.3), inset 0 0 1000px rgba(255, 168, 94, 0.25);
+  border-radius: 50%;
+  box-shadow: 0 0 75px rgba(253, 216, 6, 0.3), inset 0 0 1000px rgba(255, 168, 94, 0.25);
 }
-.plane.main .circle:nth-child(1) {
+ .plane.main .circle:nth-child(1) {
   -webkit-transform: rotateZ(40deg) rotateX(63.435deg);
           transform: rotateZ(40deg) rotateX(63.435deg);
 }
-.plane.main .circle:nth-child(2) {
+ .plane.main .circle:nth-child(2) {
   -webkit-transform: rotateZ(90deg) rotateX(63.435deg);
           transform: rotateZ(90deg) rotateX(63.435deg);
 }
-.plane.main .circle:nth-child(3) {
+ .plane.main .circle:nth-child(3) {
   -webkit-transform: rotateZ(140deg) rotateX(63.435deg);
           transform: rotateZ(140deg) rotateX(63.435deg);
 }
-.plane.main .circle:nth-child(4) {
+ .plane.main .circle:nth-child(4) {
   -webkit-transform: rotateZ(190deg) rotateX(63.435deg);
           transform: rotateZ(190eg) rotateX(63.435deg);
 }
@@ -99,11 +98,11 @@ html, body {
   -webkit-transform: rotateZ(240deg) rotateX(63.435deg);
           transform: rotateZ(240deg) rotateX(63.435deg);
 }
-.plane.main .circle:nth-child(6) {
+ .plane.main .circle:nth-child(6) {
   -webkit-transform: rotateZ(290deg) rotateX(63.435deg);
           transform: rotateZ(290deg) rotateX(63.435deg);
 }
-.plane.main .circle:nth-child(7) {
+ .plane.main .circle:nth-child(7) {
   -webkit-transform: rotateZ(360deg) rotateX(63.435deg);
           transform: rotateZ(360deg) rotateX(63.435deg);
 }
@@ -130,3 +129,179 @@ html, body {
   }
 }
 
+.view2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+ .plane2 {
+  width: 100px;
+  height: 100px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+ .plane2.main2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 18%;
+  margin-left: 90%;
+  -webkit-transform: rotateX(60deg) rotateZ(-70deg);
+          transform: rotateX(60deg) rotateZ(-70deg);
+  -webkit-animation: rotate 6s infinite linear;
+          animation: rotate 6s infinite linear;
+}
+ .plane2.main2 .circle2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  border-radius: 50%;
+  box-shadow: 0 0 125px rgba(59,114,170, 0.7), inset 0 0 1000px rgba(14, 165, 253, 0.25);
+}
+ .plane2.main2 .circle2:nth-child(1) {
+  -webkit-transform: rotateZ(40deg) rotateX(63.435deg);
+          transform: rotateZ(40deg) rotateX(63.435deg);
+}
+ .plane2.main2 .circle2:nth-child(2) {
+  -webkit-transform: rotateZ(90deg) rotateX(63.435deg);
+          transform: rotateZ(90deg) rotateX(63.435deg);
+}
+ .plane2.main2 .circle2:nth-child(3) {
+  -webkit-transform: rotateZ(140deg) rotateX(63.435deg);
+          transform: rotateZ(140deg) rotateX(63.435deg);
+}
+ .plane2.main2 .circle2:nth-child(4) {
+  -webkit-transform: rotateZ(190deg) rotateX(63.435deg);
+          transform: rotateZ(190eg) rotateX(63.435deg);
+}
+ .plane2.main2 .circle2:nth-child(5) {
+  -webkit-transform: rotateZ(240deg) rotateX(63.435deg);
+          transform: rotateZ(240deg) rotateX(63.435deg);
+}
+ .plane2.main2 .circle2:nth-child(6) {
+  -webkit-transform: rotateZ(290deg) rotateX(63.435deg);
+          transform: rotateZ(290deg) rotateX(63.435deg);
+}
+ .plane2.main2 .circle2:nth-child(7) {
+  -webkit-transform: rotateZ(360deg) rotateX(63.435deg);
+          transform: rotateZ(360deg) rotateX(63.435deg);
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+            transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+            transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+ .view3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+ .plane3 {
+    width: 100px;
+    height: 100px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+ .plane3.main3 {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 9%;
+    margin-left: 88%;
+    -webkit-transform: rotateX(60deg) rotateZ(-70deg);
+            transform: rotateX(60deg) rotateZ(-70deg);
+    -webkit-animation: rotate 10s infinite linear;
+            animation: rotate 10s infinite linear;
+  }
+ .plane3.main3 .circle3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    border-radius: 50%;
+    box-shadow: 0 0 250px rgba(193, 241, 253, 0.9), inset 0 0 1000px rgba(246, 251, 253, 0.25);
+  }
+ .plane3.main3 .circle3:nth-child(1) {
+    -webkit-transform: rotateZ(40deg) rotateX(63.435deg);
+            transform: rotateZ(40deg) rotateX(63.435deg);
+  }
+ .plane3.main3 .circle3:nth-child(2) {
+    -webkit-transform: rotateZ(90deg) rotateX(63.435deg);
+            transform: rotateZ(90deg) rotateX(63.435deg);
+  }
+ .plane3.main3 .circle3:nth-child(3) {
+    -webkit-transform: rotateZ(140deg) rotateX(63.435deg);
+            transform: rotateZ(140deg) rotateX(63.435deg);
+  }
+ .plane3.main3 .circle3:nth-child(4) {
+    -webkit-transform: rotateZ(190deg) rotateX(63.435deg);
+            transform: rotateZ(190eg) rotateX(63.435deg);
+  }
+ .plane3.main3 .circle3:nth-child(5) {
+    -webkit-transform: rotateZ(240deg) rotateX(63.435deg);
+            transform: rotateZ(240deg) rotateX(63.435deg);
+  }
+ .plane3.main3 .circle3:nth-child(6) {
+    -webkit-transform: rotateZ(290deg) rotateX(63.435deg);
+            transform: rotateZ(290deg) rotateX(63.435deg);
+  }
+ .plane3.main3 .circle3:nth-child(7) {
+    -webkit-transform: rotateZ(360deg) rotateX(63.435deg);
+            transform: rotateZ(360deg) rotateX(63.435deg);
+  }
+  
+  @-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+              transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    100% {
+      -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+              transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+              transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    100% {
+      -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+              transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+  
