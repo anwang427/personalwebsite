@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 680px) {
   .right-page {
   padding-top: 4%;
   padding-left: 5%;
