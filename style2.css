@@ -10,7 +10,22 @@
   font-style: normal;
 }
 
-@media only screen and (max-width: 680px) {
+.right-page {
+  padding-top: 4%;
+  padding-left: 3%;
+  padding-right: 28%;
+  padding-bottom: 4%;
+  text-align: justify;
+  max-height: 100vh;
+  font-family: 'Barlow';
+  line-height: 1.4;
+  font-size: 100%;
+  color: rgba(255, 255, 255, 0.86);
+  opacity: 0.86;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 580px) {
   .right-page {
   padding-top: 4%;
   padding-left: 5%;
@@ -26,21 +41,6 @@
   z-index: 2;
   }
 }
-
-.right-page {
-  padding-top: 4%;
-  padding-left: 3%;
-  padding-right: 28%;
-  padding-bottom: 4%;
-  text-align: justify;
-  max-height: 100vh;
-  font-family: 'Barlow';
-  line-height: 1.4;
-  font-size: 100%;
-  color: rgba(255, 255, 255, 0.86);
-  opacity: 0.86;
-  z-index: 2;
-  }
 
 a:link {
   color: rgba(255, 255, 255, 0.96);
