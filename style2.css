@@ -65,7 +65,7 @@ h4 {
   margin-bottom: 3%;
   font-family: 'Barlow';
   font-size: 100%;
-  -webkit-animation: fadein 5s;
+  -webkit-animation: nothidden 1s, fadein 3s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
