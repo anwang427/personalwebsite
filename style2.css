@@ -65,7 +65,12 @@ h4 {
   margin-bottom: 3%;
   font-family: 'Barlow';
   font-size: 100%;
-  -webkit-animation: nothidden 1s, fadein 3s;
+  overflow: hidden;
+  border-right: 0.05em solid #4a4a4a;
+  margin: 0 auto;
+  animation: nothidden 1s, typing 3s steps(60, end),
+    blink-caret 0.5s step-end infinite;
+  animation-delay: 1.1s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
