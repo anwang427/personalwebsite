@@ -7,7 +7,7 @@
        url('fonts/Barlow-Light.woff')format('woff'),
        url('fonts/Barlow-Light.ttf') format('truetype');
   font-weight: 300;
-  font-style: normal;
+  font-style: lighter;
 }
 
 .right-page {
