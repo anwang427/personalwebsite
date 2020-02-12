@@ -23,7 +23,6 @@
   color: rgba(255, 255, 255, 0.86);
   opacity: 0.86;
   z-index: 2;
-  -webkit-animation: fadein 2s;
 }
 
 @media only screen and (max-width: 580px) {
@@ -40,7 +39,6 @@
   color: rgba(255, 255, 255, 0.86);
   opacity: 0.86;
   z-index: 2;
-  -webkit-animation: fadein 2s;
   }
 }
 
@@ -58,6 +56,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  -webkit-animation: fadein 2s;
 }
 
 h4 {
@@ -92,7 +91,6 @@ h4 {
   bottom: 0;
   margin-top: 18%;
   margin-left: 78%;
-  -webkit-animation: fadein 2s;
   -webkit-transform: rotateX(60deg) rotateZ(-70deg);
           transform: rotateX(60deg) rotateZ(-70deg);
   -webkit-animation: rotate 6s infinite linear;
@@ -181,7 +179,6 @@ h4 {
   bottom: 0;
   margin-top: 21%;
   margin-left: 88%;
-  -webkit-animation: fadein 2s;
   -webkit-transform: rotateX(60deg) rotateZ(-70deg);
           transform: rotateX(60deg) rotateZ(-70deg);
   -webkit-animation: rotate 10s infinite linear;
@@ -286,7 +283,6 @@ h4 {
     bottom: 0;
     margin-top: 12%;
     margin-left: 83%;
-    -webkit-animation: fadein 2s;
     -webkit-transform: rotateX(60deg) rotateZ(-70deg);
             transform: rotateX(60deg) rotateZ(-70deg);
     -webkit-animation: rotate 5s infinite linear;
