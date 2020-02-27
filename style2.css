@@ -579,10 +579,10 @@ nav .nodes {
 @media only screen and (max-width: 680px) {
   .line {
     position: fixed;
-    width: 52vw;
+    width: 50vw;
     height: 1px;
     top: 70px;
-    left: 45px;
+    left: 60px;
   }
 }
 
