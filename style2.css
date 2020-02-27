@@ -28,7 +28,7 @@
 @media only screen and (max-width: 680px) {
   .right-page {
   margin-top: 140px;
-  margin-left: 50px;
+  margin-left: 35px;
   padding-right: 6%;
   text-align: left;
   max-height: 100vh;
@@ -493,7 +493,7 @@ h4 {
 @media only screen and (max-width: 680px) {
   #divfix{
     position: fixed;
-    padding-left: 65px;
+    padding-left: 45px;
     width: 100%;
     max-width: 500px;
     top: 2vh;
@@ -578,7 +578,7 @@ nav .nodes {
     width: 52vw;
     height: 1px;
     top: 70px;
-    left: 45px;
+    left: 35px;
   }
 }
 
@@ -610,7 +610,7 @@ nav .nodes {
 @media only screen and (max-width: 580px)  {
   .node {
     margin-left: 75px;
-    left: 10px;
+    left: 5px;
     width: 20px;
     height: 20px;
     margin-top: 5px;
