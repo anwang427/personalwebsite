@@ -36,7 +36,7 @@
   max-height: 100vh;
   font-family: 'Barlow';
   line-height: 1.4;
-  font-size: 90%;
+  font-size: 100%;
   color: rgba(255, 255, 255, 0.86);
   z-index: 5000;
   opacity: 0.86;
@@ -531,6 +531,7 @@ nav ul li{
     margin:-1px -5px -1px -5px;
     cursor:pointer;
     transition:all .2s;
+    overflow: scroll;
     -webkit-transition:all .2s;
   }
 }
@@ -554,6 +555,7 @@ nav .wrapper {
   padding: 0;
   width: 100%;
   -webkit-animation: linefade 2.5s;
+ overflow: scroll;
 }
 
 @-webkit-keyframes linefade {
