@@ -22,6 +22,12 @@
   color: rgba(255, 255, 255, 0.86);
   z-index: 5000;
   opacity: 0.86;
+  -webkit-animation: pagefade 2.5s;
+}
+
+@-webkit-keyframes pagefade {
+  from { opacity: 0; }
+  to   { opacity: 0.86; }
 }
 
 @media only screen and (max-width: 680px) {
@@ -38,7 +44,12 @@
   color: rgba(255, 255, 255, 0.86);
   z-index: 5000;
   opacity: 0.86;
-  
+  -webkit-animation: pagefade 2.5s;
+  }
+
+  @-webkit-keyframes pagefade {
+    from { opacity: 0; }
+    to   { opacity: 0.86; }
   }
 }
 
