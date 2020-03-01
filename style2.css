@@ -357,7 +357,7 @@ h4 {
     bottom: 0;
     opacity: 0;
     -webkit-animation: fadein 1s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 4s;
     animation-iteration-count: infinite;
   }
   
