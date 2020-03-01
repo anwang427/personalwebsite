@@ -13,7 +13,7 @@
 
 .right-page {
   margin-top: 140px;
-  margin-left: 36px;
+  margin-left: 40px;
   padding-right: 40%;
   padding-bottom: 10%;
   text-align: justify;
@@ -473,7 +473,7 @@ h4 {
 
 #divfix{
   position: fixed;
-  padding-left: 58px;
+  padding-left: 55px;
   width: 100%;
   max-width: 500px;
   top: 2vh;
