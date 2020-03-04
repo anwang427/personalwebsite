@@ -519,7 +519,7 @@ nav ul li{
   font-size: 80%;
   color:rgba(255, 255, 255, 0.38);
   padding:6px 0 6px 0;
-  margin:-1px -5px -1px -5px;
+  margin:-1px -15px -1px -5px;
   cursor:pointer;
   transition:all .2s;
   -webkit-transition:all .2s;
@@ -537,7 +537,7 @@ nav ul li{
     font-size: 78%;
     color:rgba(255, 255, 255, 0.38);
     padding:6px 0 6px 0;
-    margin:-1px -5px -1px -5px;
+    margin:-1px -15px -1px -5px;
     cursor:pointer;
     transition:all .2s;
     -webkit-transition:all .2s;
