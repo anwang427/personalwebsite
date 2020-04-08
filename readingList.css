@@ -20,8 +20,8 @@
 
   .List {
     margin-top: 140px;
-    margin-left: 42px;
-    padding-right: 39.8%;
+    margin-left: 80px;
+    padding-right: 28%;
     padding-bottom: 10%;
     text-align: justify;
     max-height: 100vh;
@@ -84,7 +84,7 @@
 
 #divfix{
   position: fixed;
-  padding-left: 55px;
+  padding-left: 91px;
   width: 100%;
   max-width: 500px;
   top: 2vh;
@@ -191,10 +191,10 @@ nav ul{
 
 .line {
   position: fixed;
-  width: 57vw;
+  width: 53vw;
   height: 1px;
   top: 70px;
-  left: 50px;
+  left: 88px;
 }
 
 @media only screen and (max-width: 680px) {

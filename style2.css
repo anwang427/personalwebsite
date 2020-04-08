@@ -11,13 +11,13 @@
 
 .right-page {
   margin-top: 140px;
-  margin-left: 40px;
+  margin-left: 84px;
   padding-right: 40%;
   padding-bottom: 10%;
   text-align: justify;
   max-height: 100vh;
   font-family: 'Barlow';
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: 98%;
   color: rgba(255, 255, 255, 0.86);
   z-index: 5000;
@@ -124,7 +124,7 @@ h4 {
   right: 0;
   bottom: 0;
   margin-top: 18%;
-  margin-left: 72%;
+  margin-left: 74%;
   -webkit-transform: rotateX(60deg) rotateZ(-70deg);
           transform: rotateX(60deg) rotateZ(-70deg);
   -webkit-animation: rotate 6s infinite linear;
@@ -482,7 +482,7 @@ h4 {
 
 #divfix{
   position: fixed;
-  padding-left: 55px;
+  padding-left: 91px;
   width: 100%;
   max-width: 500px;
   top: 2vh;
@@ -583,10 +583,10 @@ nav ul{
 
 .line {
   position: fixed;
-  width: 57vw;
+  width: 53.5vw;
   height: 1px;
   top: 70px;
-  left: 50px;
+  left: 88px;
 }
 
 @media only screen and (max-width: 680px) {
