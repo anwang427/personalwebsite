@@ -91,6 +91,16 @@ h4 {
   font-size: 100%;
 }
 
+#geode {
+  position: absolute;
+  right: 200px;
+}
+
+#geode2 {
+  position: absolute;
+  right: 200px;
+}
+
 /*create the balls of light */
 
  .view {
